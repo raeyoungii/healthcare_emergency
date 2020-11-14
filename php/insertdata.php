@@ -1,6 +1,6 @@
 <?php
 	if($_SERVER['REQUEST_METHOD']=='POST'){
-	$con=mysqli_connect("127.0.0.1","root","1208","insertdata");
+	$con=mysqli_connect("127.0.0.1","root","password","dbname");
 	$name=$_POST['name'];
 	$email=$_POST['email'];
 
